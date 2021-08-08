@@ -1,7 +1,7 @@
 # Simple Calculator
 This is simple JavaScipt project which I made. I have recently started learning js so, trying my hands on the project. All the Code is available to download. Also let me know you liked it or not? 
 
-[Visit Now🚀](https://shubhamashish33.github.io/addition/)
+[Visit Now🚀](https://shubhamashish33.github.io/calculator/)
 ## Code
 Basic HTML Code
 ``` html
