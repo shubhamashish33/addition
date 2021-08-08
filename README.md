@@ -1,17 +1,27 @@
-# Addition of two Number
-This is simple JavaScipt project which I made. I have recently started learning js so, trying my hands on the project. All the Code is available to download. Also let me know you liked it or not? \
+# Simple Calculator
+This is simple JavaScipt project which I made. I have recently started learning js so, trying my hands on the project. All the Code is available to download. Also let me know you liked it or not? 
 
 [Visit Now🚀](https://shubhamashish33.github.io/addition/)
 ## Code
 Basic HTML Code
 ``` html
   <center>
-	  <h1>Addition of two Number</h1>
+	  <h1>Simple Calculator</h1>
 	  <input type="number" name="" id="firstNum" required placeholder="Enter First Number" >
 	  <br>
 	  <input type="number" name="" id="secondNum" required placeholder="Enter Second Number">
 	  <br>
-	  <button onclick="getSum()">Calculate Sum</button>
+	  <!-- button -->
+	  <div class="btn">
+	  <div class="btn1">
+	  <button onclick="getCalc('1')">Addition</button>
+	  <button onclick="getCalc('2')">Substraction</button>
+	  </div>
+	  <div class="btn2">
+	  <button onclick="getCalc('3')">Multiplication</button>
+	  <button onclick="getCalc('4')">Division</button>
+	  </div>
+	  </div>
 	  <h2 id="result"></h2>
 	  <br>
 	  <a href="https://shubhamashish33.github.io/socialmedia/" target="_blank" class="Follow">Follow Me ✌</a>
@@ -19,17 +29,36 @@ Basic HTML Code
 ```
 JavaScript Code
 ``` js
-getSum = () => {
-  let num1 = parseFloat(document.getElementById('firstNum').value);
-  let num2 = parseFloat(document.getElementById('secondNum').value);
-  if(isNaN(num1) || isNaN(num2))
-  {
-    document.getElementById('result').innerHTML = 'Please Enter Value';
-  }
-  else{
-  document.getElementById('result').innerHTML = num1 + num2;
-  }
+getCalc = (choise) => {
+   let n1 = parseFloat(document.getElementById('firstNum').value);
+   let n2 = parseFloat(document.getElementById('secondNum').value);
+   let r;
+   let c = choise;
+   if (isNaN(n1) || isNaN(n2)) {
+      document.getElementById('result').innerHTML = 'Please Enter Value';
+   }
+   else {
+      switch (c) {
+         case '1':
+            r = n1 + n2;
+            break;
+         case '2':
+            r = n1 - n2;
+            break;
+         case '3':
+            r = n1 * n2;
+            break;
+         case '4':
+            r = n1 / n2;
+            break;
+         default:
+            break;
+      }
+      document.getElementById('result').innerHTML = r;
+   }
+
 }
 ```
 ## Screenshot
-![chrome_gKITFX49ZG](https://user-images.githubusercontent.com/78084828/128614404-9cad33d9-6157-4bfb-b7a1-3c5ddd389198.png)
+![chrome_Hxk9no80KY](https://user-images.githubusercontent.com/78084828/128639674-14abd991-e4bd-4cc5-bcff-4f1e624ec70b.png)
+
