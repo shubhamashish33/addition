@@ -5,48 +5,59 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<meta name ="theme-color" content="#000000">
-	<title>Addition of two Number</title>
+	<title>Simple Calculator</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="./JavaScript-Tutorial.svg" type="image/x-icon">
 	<!-- HTML Meta Tags -->
-	<meta name="description" content="Simple Javascript project to calculate addition of two number">
+	<meta name="description" content="Simple Javascript project of Calculator">
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://shubhamashish33.github.io/addition/">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Addition of two Number">
-	<meta property="og:description" content="Simple Javascript project to calculate addition of two number">
+	<meta property="og:title" content="Simple Calculator">
+	<meta property="og:description" content="Simple Javascript project of Calculator">
 	<meta property="og:image" content="https://i.ibb.co/XszK91W/profile-pic-6-Custom.png">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="shubhamashish33.github.io">
 	<meta property="twitter:url" content="https://shubhamashish33.github.io/addition/">
-	<meta name="twitter:title" content="Addition of two Number">
-	<meta name="twitter:description" content="Simple Javascript project to calculate addition of two number">
+	<meta name="twitter:title" content="Simple Calculator">
+	<meta name="twitter:description" content="Simple Javascript project of Calculator">
 	<meta name="twitter:image" content="https://i.ibb.co/XszK91W/profile-pic-6-Custom.png" ">
 
 </head>
 
 <body oncontextmenu="return false">
-
+<!-- <body> -->
 	<script src="script.js">
 
 	</script>
   <!-- Addition of two number -->
   <center>
-	  <h1>Addition of two Number</h1>
-	  <input type="number" name="" id="firstNum" placeholder="Enter First Number" required>
+	  <h1>Simple Calculator</h1>
+	  <input type="number" name="" id="firstNum" required placeholder="Enter First Number" >
 	  <br>
-	  <input type="number" name="" id="secondNum" placeholder="Enter Second Number" required>
+	  <input type="number" name="" id="secondNum" required placeholder="Enter Second Number">
 	  <br>
-	  <button onclick="getSum()">Calculate Sum</button>
+	  <!-- button -->
+	  <div class="btn">
+	  <div class="btn1">
+	  <button onclick="getCalc('1')">Addition</button>
+	  <button onclick="getCalc('2')">Substraction</button>
+	  </div>
+	  <div class="btn2">
+	  <button onclick="getCalc('3')">Multiplication</button>
+	  <button onclick="getCalc('4')">Division</button>
+	  </div>
+	  </div>
 	  <h2 id="result"></h2>
-	  <a href="https://shubhamashish33.github.io/socialmedia/" target="_blank">Follow Me ✌</a>
+	  <br>
+	  <a href="https://shubhamashish33.github.io/socialmedia/" target="_blank" class="Follow">Follow Me ✌</a>
   </center>
 
   <footer>
-	  Made with ❤ by Shubham Ashish
+	  Made with ❤ by Shubham Ashish😎
   </footer>
   </body>
 </html>
