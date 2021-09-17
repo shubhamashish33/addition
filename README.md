@@ -3,7 +3,7 @@ This is simple JavaScipt project which I made. I have recently started learning 
 
 [Visit Now🚀](https://shubhamashish33.github.io/calculator/)
 ## Code
-Basic HTML Code
+**Basic HTML Code**
 ``` html
   <center>
 	  <h1>Simple Calculator</h1>
@@ -27,7 +27,7 @@ Basic HTML Code
 	  <a href="https://shubhamashish33.github.io/socialmedia/" target="_blank" class="Follow">Follow Me ✌</a>
   </center>
 ```
-JavaScript Code
+**JavaScript Code**
 ``` js
 getCalc = (choise) => {
    let n1 = parseFloat(document.getElementById('firstNum').value);
