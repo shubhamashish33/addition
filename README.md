@@ -2,6 +2,11 @@
 This is simple JavaScipt project which I made. I have recently started learning js so, trying my hands on the project. All the Code is available to download. Also let me know you liked it or not? 
 
 [Visit Now🚀](https://shubhamashish33.github.io/calculator/)
+
+## Screenshot
+![chrome_Hxk9no80KY](https://user-images.githubusercontent.com/78084828/128639674-14abd991-e4bd-4cc5-bcff-4f1e624ec70b.png)
+
+
 ## Code
 **Basic HTML Code**
 ``` html
@@ -59,6 +64,5 @@ getCalc = (choise) => {
 
 }
 ```
-## Screenshot
-![chrome_Hxk9no80KY](https://user-images.githubusercontent.com/78084828/128639674-14abd991-e4bd-4cc5-bcff-4f1e624ec70b.png)
+
 
