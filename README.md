@@ -68,5 +68,6 @@ getCalc = (choise) => {
 ## Follow
 ![PngItem_4409921](https://user-images.githubusercontent.com/78084828/134414120-1e999523-0559-4430-a677-05e0f3f1392c.png)
 
-If you likes this repository don't forget to mark it as star 🌟.
+If you likes this repository don't forget to mark it as star 🌟. \
+<br>
 [![](https://img.shields.io/twitter/follow/imaashish_?style=social)](https://twitter.com/imaashish_)
