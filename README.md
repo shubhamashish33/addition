@@ -3,11 +3,17 @@ This is simple JavaScipt project which I made. I have recently started learning 
 
 [Visit Now🚀](https://shubhamashish33.github.io/calculator/)
 
-## Screenshot
-![chrome_Hxk9no80KY](https://user-images.githubusercontent.com/78084828/128639674-14abd991-e4bd-4cc5-bcff-4f1e624ec70b.png)
+# Screenshot
+![chrome_0sXd9OC4Dv](https://user-images.githubusercontent.com/78084828/141943058-8a78d32f-7bcc-48f3-9423-1ce1ffca29b2.png)
 
 
-## Code
+# Tech Used ⚙️
+1. HTML
+2. CSS
+3. Javascript 
+4. VS Code
+
+# Code
 **Basic HTML Code**
 ``` html
   <center>
@@ -65,7 +71,7 @@ getCalc = (choise) => {
 }
 ```
 
-## Follow
+# Follow
 ![PngItem_4409921](https://user-images.githubusercontent.com/78084828/134414120-1e999523-0559-4430-a677-05e0f3f1392c.png)
 
 If you likes this repository don't forget to mark it as star 🌟. \
