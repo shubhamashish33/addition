@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 body{
-  background-color: black;
+  background-color: #202040;
   color: white;
 }
 h1 {
@@ -13,6 +13,10 @@ h1 {
 h2{
   margin-top: 60px;
 }
+input[type=number]{
+  font-size: 18px;
+}
+
 #firstNum,
 #secondNum {
   margin-top: 20px;
@@ -24,21 +28,28 @@ h2{
 }
 button {
   margin-top: 40px;
-  background-color: blue;
+  background-color: #FFBD69;
   margin-left: 10px;
   margin-right: 10px;
-  color: white;
+  color: black;
+  font-weight: bold;
   border: 0px;
   height: 60px;
   border-radius: 40px;
   width: 200px;
   cursor: pointer;
 }
+button:hover{
+  background-color:#F39422;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
 a{
   color: white;
 }
 footer{
-      margin-top: 60px;
+  opacity: 50%;
+      margin-top: 40px;
       text-align: center;
 }
 @media screen and (max-width: 478px) {
@@ -47,16 +58,21 @@ footer{
     margin: 0px;
     padding: 0px;
   }
+  a{
+    text-decoration: none;
+  }
   h1{
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
+    margin-bottom: 20px
   }
 
   .Follow{
     margin-top: 80px;
   }
   #firstNum, #secondNum {
-      width: 60%;
+      width: 70%;
+      height: 60px;
       margin: auto;
       margin-top: 20px;
   }
