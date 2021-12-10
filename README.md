@@ -71,9 +71,12 @@ getCalc = (choise) => {
 }
 ```
 
-# Follow
-![PngItem_4409921](https://user-images.githubusercontent.com/78084828/134414120-1e999523-0559-4430-a677-05e0f3f1392c.png)
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shubhamashish33.github.io/aboutmev2/)
 
-If you likes this repository don't forget to mark it as star 🌟. \
-<br>
-[![](https://img.shields.io/twitter/follow/imaashish_?style=social)](https://twitter.com/imaashish_)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-ashish-81a6a01b2/)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/imaashish_)
+
+**If you likes this repository don't forget to mark it as star 🌟.**
+
